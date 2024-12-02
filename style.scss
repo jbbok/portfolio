@@ -22,7 +22,7 @@
 
 /* header */
 #header {
-  width: 1280px;
+  width: 100%;
   .navbar {
     display: flex;
     align-items: center;
@@ -31,6 +31,11 @@
     width: 100%;
     height: 70px;
     font-size: 14px;
+    .logo {
+      width: 96px;
+      height: 34px;
+      background: url(./asset/image/logo.png) center/cover no-repeat;
+    }
     .navbar_right {
       display: flex;
       gap: 30px;
@@ -44,5 +49,7 @@
   .bg {
     width: 100%;
     height: 832px;
+    background: center/cover no-repeat;
+    position: relative;
   }
 }

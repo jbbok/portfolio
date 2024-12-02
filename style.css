@@ -15,11 +15,15 @@ a {
   color: inherit;
 }
 
+@font-face {
+  font-family: "RiaSans-ExtraBold";
+  src: url("./asset/font/RiaSans-ExtraBold.otf") format("otf");
+}
 /* font */
 /* variable */
 /* header */
 #header {
-  width: 1280px;
+  width: 100%;
 }
 #header .navbar {
   display: flex;
@@ -29,6 +33,11 @@ a {
   width: 100%;
   height: 70px;
   font-size: 14px;
+}
+#header .navbar .logo {
+  width: 96px;
+  height: 34px;
+  background: url(./asset/image/logo.png) center/cover no-repeat;
 }
 #header .navbar .navbar_right {
   display: flex;
@@ -42,4 +51,6 @@ a {
 #main .bg {
   width: 100%;
   height: 832px;
+  background: center/cover no-repeat;
+  position: relative;
 }
