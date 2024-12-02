@@ -1,0 +1,48 @@
+/* reset */
+@import "./reset.scss";
+
+/* font */
+// @import "./fonts.scss";
+
+/* variable */
+// $color: (
+//   main-font-color: #222,
+//   main-light-bg: #fff,
+//   main-item-border: #ddd,
+//   main-red-color: #dc143c,
+//   main-blue-color: #1db1f0,
+// );
+
+// $family: (
+//   montserrat: "Montserrat",
+//   manrope: "Manrope",
+//   sourcecode: "Source Code Pro",
+//   overpass: "Overpass",
+// );
+
+/* header */
+#header {
+  width: 1280px;
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+    height: 70px;
+    font-size: 14px;
+    .navbar_right {
+      display: flex;
+      gap: 30px;
+    }
+  }
+}
+
+/*main */
+#main {
+  width: 100%;
+  .bg {
+    width: 100%;
+    height: 832px;
+  }
+}
