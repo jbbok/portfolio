@@ -1,5 +1,6 @@
 /* reset */
-@import "./reset.scss";
+@import "../config/reset.scss";
+@import "../config/color.scss";
 
 /* font */
 // @import "./fonts.scss";
@@ -34,7 +35,7 @@
     .logo {
       width: 96px;
       height: 34px;
-      background: url(./asset/image/logo.png) center/cover no-repeat;
+      background: url(/asset/image/JBok.png) center/cover no-repeat;
     }
     .navbar_right {
       display: flex;
@@ -43,13 +44,25 @@
   }
 }
 
-/*main */
+/* main */
 #main {
   width: 100%;
-  .bg {
-    width: 100%;
-    height: 832px;
-    background: center/cover no-repeat;
-    position: relative;
+  height: 832px;
+  background: url(/asset/image/bg.png) center/cover no-repeat;
+  position: relative;
+  .main_desc {
+    border: 1px solid red;
+    position: absolute;
+    :nth-child(1) {
+      color: map-get($color, point-pink);
+    }
+    p:nth-child(2) {
+      color: map-get($color, font-white);
+    }
   }
+}
+
+/* profile */
+#profile {
+  width: 100%;
 }

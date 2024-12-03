@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- custom css & js -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="/icon.ico" />
+    <link rel="stylesheet" href="scss/components/style.css" />
     <script src="./script.js"></script>
-    <title>정보경 포트폴리오</title>
+    <script
+      src="https://kit.fontawesome.com/fc51ef092a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>보경이 포트폴료</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -24,19 +29,46 @@
     </header>
     <!-- MAIN -->
     <main id="main">
-      <img class="bg" src="./asset/image/bg.png" alt="bg" />
-      <p>JEONG BO KYUNG 2024 FRONTEND PORTFOLIO</p>
-      <p>BOKYUNG</p>
-      <p>PORTFOLIO</p>
-      <p>
-        디자인 감각과 문제 해결력을 겸비한 사용자 중심의 프론트엔드
-        개발자입니다.
-      </p>
+      <div class="main_desc">
+        <p>JEONG BO KYUNG 2024 PORTFOLIO</p>
+        <p>BOKYUNG</p>
+        <p>PORTFOLIO</p>
+        <p>
+          디자인 감각과 문제 해결력을 겸비한 사용자 중심의 프론트엔드
+          개발자입니다.
+        </p>
+      </div>
       <div class="arrow_circle">
         <i class="fa-solid fa-angle-down"></i>
       </div>
     </main>
     <!-- PROFILE -->
-    <section id="profile"></section>
+    <section id="profile">
+      <div class="profile_title">
+        <span>Introduce</span>
+        <p>Profile</p>
+        <span></span>
+      </div>
+      <div class="profile_desc">
+        <div class="profile_img"></div>
+        <div class="profile_info">
+          <div class="profile_intro">
+            <p>
+              안녕하세요.
+              <br />
+              웹을 만드는 정보경입니다.
+            </p>
+          </div>
+          <div class="profile_mail">
+            <i class="fa-solid fa-envelope"></i>
+            <p>bboble1346@naver.com</p>
+          </div>
+          <div class="profile_github">
+            <i class="fa-brands fa-github"></i>
+            <p>https://github.com/jbbok</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

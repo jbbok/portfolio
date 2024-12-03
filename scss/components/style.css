@@ -19,6 +19,7 @@ a {
   font-family: "RiaSans-ExtraBold";
   src: url("./asset/font/RiaSans-ExtraBold.otf") format("otf");
 }
+/* VARIABLES */
 /* font */
 /* variable */
 /* header */
@@ -37,20 +38,32 @@ a {
 #header .navbar .logo {
   width: 96px;
   height: 34px;
-  background: url(./asset/image/logo.png) center/cover no-repeat;
+  background: url(/asset/image/JBok.png) center/cover no-repeat;
 }
 #header .navbar .navbar_right {
   display: flex;
   gap: 30px;
 }
 
-/*main */
+/* main */
 #main {
   width: 100%;
-}
-#main .bg {
-  width: 100%;
   height: 832px;
-  background: center/cover no-repeat;
+  background: url(/asset/image/bg.png) center/cover no-repeat;
   position: relative;
+}
+#main .main_desc {
+  border: 1px solid red;
+  position: absolute;
+}
+#main .main_desc :nth-child(1) {
+  color: #e6276e;
+}
+#main .main_desc p:nth-child(2) {
+  color: #ffffff;
+}
+
+/* profile */
+#profile {
+  width: 100%;
 }
