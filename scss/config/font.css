@@ -1,14 +1,14 @@
+/* Pretendard */
 @font-face {
-  font-family: "Pretendard-Regular";
+  font-family: "Pretendard";
   font-style: normal;
-  font-weight: 400;
-  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 500;
+  src: url("/asset/font/Pretendard-Bold.woff") url("/asset/font/Pretendard-Medium.woff") format("woff");
 }
-/* HEADING */
-/* -2% = 0.02 * 'n'px */ /* -3% = 0.03 * 'n'px */
-/* TEXT */
-/* -2% = 0.02 * 'n'px */
-/* -3% = 0.03 * 'n'px */
-/* TEXT BOLD */
-/* -2% = 0.02 * 'n'px */
-/* -3% = 0.03 * 'n'px */
+/* RiaSans */
+@font-face {
+  font-family: "RiaSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/asset/font/RiaSans-ExtraBold.woff");
+}
