@@ -46,7 +46,6 @@
     height: 832px;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
     :nth-child(1) {
       margin-top: 70px;
@@ -71,24 +70,25 @@
       @include text_16;
       color: map-get($color, font-white);
     }
-  }
-  .arrow_circle {
-    width: 43px;
-    height: 43px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: map-get($color, point-pink);
-    border-radius: 50%;
-    // margin-bottom: 70px;
-    .fa-chevron-down {
-      width: 24px;
-      height: 24px;
+    .arrow_circle {
+      border: 1px solid red;
+      width: 43px;
+      height: 43px;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 26px;
-      color: map-get($color, font-white);
+      margin-top: 210px;
+      background: map-get($color, point-pink);
+      border-radius: 50%;
+      i {
+        width: 26px;
+        height: 26px;
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: map-get($color, font-white);
+      }
     }
   }
 }
@@ -214,7 +214,7 @@
       margin-bottom: 70px;
     }
   }
-  .skill_list {
+  .skill_wrapper {
     display: flex;
     flex-direction: column;
     padding: 0px 201px;
@@ -222,6 +222,7 @@
     .skill_1 {
       display: flex;
       gap: 466px;
+      margin-bottom: 37px;
     }
     .skill_2 {
       display: flex;

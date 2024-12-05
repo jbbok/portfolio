@@ -113,22 +113,24 @@ a {
   font-style: normal;
   color: #ffffff;
 }
-#main .arrow_circle {
+#main .main_desc .arrow_circle {
+  border: 1px solid red;
   width: 43px;
   height: 43px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 210px;
   background: #e6276e;
   border-radius: 50%;
 }
-#main .arrow_circle .fa-chevron-down {
-  width: 24px;
-  height: 24px;
+#main .main_desc .arrow_circle i {
+  width: 26px;
+  height: 26px;
+  font-size: 26px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 26px;
   color: #ffffff;
 }
 
@@ -265,7 +267,7 @@ a {
   background: #e6276e;
   margin-bottom: 70px;
 }
-#skill .skill_list {
+#skill .skill_wrapper {
   display: flex;
   flex-direction: column;
   padding: 0px 201px;
@@ -273,11 +275,12 @@ a {
   font-size: 26px;
   font-style: normal;
 }
-#skill .skill_list .skill_1 {
+#skill .skill_wrapper .skill_1 {
   display: flex;
   gap: 466px;
+  margin-bottom: 37px;
 }
-#skill .skill_list .skill_2 {
+#skill .skill_wrapper .skill_2 {
   display: flex;
   gap: 506px;
 }
