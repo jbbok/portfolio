@@ -244,12 +244,13 @@ a {
 #skill {
   display: flex;
   flex-direction: column;
+  margin-bottom: 80px;
 }
 #skill .skill_title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   gap: 15px;
 }
 #skill .skill_title span {
@@ -284,3 +285,84 @@ a {
   display: flex;
   gap: 506px;
 }
+
+/* teamproject */
+#teamproject {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+#teamproject .teamproject_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+#teamproject .teamproject_title span {
+  font-size: 16px;
+  font-style: normal;
+}
+#teamproject .teamproject_title p {
+  font-family: "RiaSans";
+  font-size: 30px;
+  font-style: normal;
+}
+#teamproject .teamproject_title .underline {
+  width: 50px;
+  height: 2px;
+  background: #e6276e;
+  margin-bottom: 70px;
+}
+#teamproject .teamproject_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#teamproject .teamproject_list .team_instagram .team_instagram_img {
+  width: 100%;
+  height: 284px;
+  background: url(/asset/image/insta.svg) center/cover no-repeat;
+}
+#teamproject .teamproject_list .team_prime .team_prime_img {
+  width: 100%;
+  height: 284px;
+  background: url(/asset/image/prime.svg) center/cover no-repeat;
+}
+#teamproject .teamproject_list .team_aurora .team_aurora_img {
+  width: 100%;
+  height: 284px;
+  background: url(/asset/image/aurora.svg) center/cover no-repeat;
+}
+
+/* project */
+#project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+#project .project_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+  gap: 15px;
+}
+#project .project_title span {
+  font-size: 16px;
+  font-style: normal;
+}
+#project .project_title p {
+  font-family: "RiaSans";
+  font-size: 30px;
+  font-style: normal;
+}
+#project .project_title .underline {
+  width: 50px;
+  height: 2px;
+  background: #e6276e;
+  margin-bottom: 70px;
+}/*# sourceMappingURL=style.css.map */
